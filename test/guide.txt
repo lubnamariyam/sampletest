@@ -28,7 +28,7 @@ Instructions
 
 	        
 3. CHANGES TO BE DONE IN PROGRAM
-	3.1 line:10 change the path to credentials,json file and add the path from your local file downloaded from console.developers                //refer 2.2.i
+	3.1 line:10 change the path to credentials.json file and add the path from your local file downloaded from console.developers                //refer 2.2.i
 	3.2 line:14 work_sheet = client.open('lubna62').sheet1  ----> change the name of the sheet with the google sheet created by you              //refer 2.2.ii
 
 
