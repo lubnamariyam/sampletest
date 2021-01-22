@@ -1,0 +1,43 @@
+Instructions
+
+
+1.install all these libraries 
+	1.1 open command prompt--->python path 
+           	i. pip3 install requests
+		ii. pip3 install pandas
+		iii. pip3 install gspread
+		iv. pip3 install --upgrade google-api-python-client oauth2client 
+
+
+
+2.to access google sheet
+
+	2.1 Go to --->https://console.developers.google.com/
+            -->create a new project with project name
+		we need to add two APIs.
+		Google Sheets API--->enable
+		Google Drive API--->enable
+		add credentials 
+		download the json file and save the path to folder
+         2.2 provide access to the google sheet
+		i.open the downloaded json file and search for client mail and copy it
+		ii.open the google sheet and under "share" option and paste it and give access to the client email.
+
+(NOTE: FOR MORE DETAILED STEP BY STEP PROCESS REFER THE LINK -->https://www.analyticsvidhya.com/blog/2020/07/read-and-update-google-spreadsheets-with-python/)
+
+
+	        
+3. CHANGES TO BE DONE IN PROGRAM
+	3.1 line:10 change the path to credentials,json file and add the path from your local file downloaded from console.developers                //refer 2.2.i
+	3.2 line:14 work_sheet = client.open('lubna62').sheet1  ----> change the name of the sheet with the google sheet created by you              //refer 2.2.ii
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  or
+
+
+1. install the libraries mentioned above under section 1                                                 //refer 1.1
+2.open the credentials.json and store in your local device ---> copy the path of the file                //file available with name"credentials.json"
+3.open the program and under line:10 change the path with your path copied.
+4.now you are set to run the program.
