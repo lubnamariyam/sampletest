@@ -1,0 +1,30 @@
+swetha and lubna
+appium project
+
+
+
+21/12/2020
+1.learned how to install appium 
+
+22/12/2020
+1.successfully installed appium on windows  
+
+todo:
+1.how to connect real device 
+2.first project appium
+3.how to use appium desktop inspector
+4.UI automator viewer
+5. how to connect mobile without cable
+6.what is appium studio
+7. appium studio on windows
+8. appium studio first test case
+9. ios automation java project
+10. java+maven+test NG
+11. how to change port
+12. how to record test
+13.eclipse java project 
+14.extend reports
+
+
+
+
